@@ -22,5 +22,5 @@
 </ul>
 
 <h2>## Licença⚙️</h2>
-<p>Este projeto é licenciado sob a licença MIT, o que significa que você é livre para usar, modificar e distribuir este código.</p>
+<p>Este projeto é licenciado sob a <a href="LICENSE">licença MIT</a>, o que significa que você é livre para usar, modificar e distribuir este código.</p>
 <p>Esperamos contar com sua contribuição para tomar o Projeto JavaScript uma referência de solução práticas em JavaScript. Obrigado por fazer parte desta comunidade!</p>
