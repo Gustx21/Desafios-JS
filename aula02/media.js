@@ -13,18 +13,16 @@ function calcular() {
 
     const resposta = (val1 + val2 + val3) / 3;
 
-    // condicional para caso o valor seja menor que 0 
-    if (val1 < 0 || val2 < 0 || val3 < 0) {
-        res.innerHTML = "Digite uma nota a cima de zero."
-    }
-    else {
-        // Resposta caso seja a cima de 10
-        res.innerHTML = "Digite uma nota válida.";
+    // condicional para caso o valor seja inválido 
+    if (val1 > 10 || val2 > 10 || val3 > 10) {
+        res.innerHTML = "Valor inválido.";
+        return;
+    };
 
-        // condicional para caso o valor ultrapasse 10
-        if (val1 <= 10 && val2 <= 10 && val3 <= 10) {
-            // o 'innerHTML' altera o texto com a média informada
-            res.innerHTML = `A média final é ${resposta.toFixed(1)}`; // o 'toFixed()' é para quantidade de casas decimais
-        }
-    }
+    if (val1 < 0 || val2 < 0 || val3 < 0) {
+        res.innerHTML = "Valor inválido.";
+        return;
+    };
+
+    res.innerHTML = `${resposta.toFixed(1)}`; // o 'toFixed()' é para quantidade de casas decimais
 }
