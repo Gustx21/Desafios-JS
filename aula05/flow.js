@@ -7,6 +7,11 @@ let calculo, receitas;
 export function subtrairTotal() {
     const receitaTotal = parseInt(prompt("Digite o número total de receitas:"));
 
+    if (receitaTotal <= 0 || isNaN(receitaTotal)) {
+        alert('Insira um valor válido.');
+        return;
+    };
+
     for (let i = 0; i < receitaTotal; i++) {
         receitas = parseInt(prompt(`Digite os valores de cada receita por ordem (${i + 1}):`));
 
