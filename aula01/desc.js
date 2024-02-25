@@ -1,13 +1,16 @@
-// função para o evento
-function clicar() {
-    // variáveis armazena os valores inseridos nos ID's
+// Declarando função para o evento de 'click'
+const btn = window.document.getElementById('btn');
+
+// Função para o evento
+function calcular() {
+    // Variáveis armazena os valores inseridos nos ID's
     let valorProduto = window.document.getElementById('num').value;
     let resultado = window.document.getElementById('resultado');
 
-    // condição para um intervalo no valor
+    // Condição para um intervalo no valor
     if (valorProduto >= 150 && valorProduto <= 300) {
 
-        // operação para acrescentar o desconto
+        // Operação para acrescentar o desconto
         let valorDesconto = (15 / 100) * valorProduto;
         resultado.innerHTML = `Desconto aplicado. Valor do produto é ${valorDesconto}.`;
     }
@@ -16,5 +19,5 @@ function clicar() {
     }
 }
 
-// evento para chamar a função após o clique
-btn.addEventListener('click', clicar);
+// Evento para chamar a função após o clique
+btn.addEventListener('click', calcular);
