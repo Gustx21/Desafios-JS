@@ -4,7 +4,7 @@ const minutos = document.getElementById('minutos')
 const segundos = document.getElementById('segundos')
 
 // o 'setInterval()' serve para contar
-const relogio = setInterval( function time() {
+const relogio = setInterval(() => {
     // o 'Date()' serve para atualizar o dia
     let date = new Date()
 
