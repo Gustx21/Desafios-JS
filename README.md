@@ -1,14 +1,13 @@
 # JavaScript
- Bem-vindo ao Projeto JavaScript, uma iniciativa para resolver problemas comuns do dia a dia utilizando JavaScript. Este repositório visa criar soluções eficientes e elegantes, incentivando a contribuição de código limpo e bem comentado.
+ Bem-vindo ao Projeto JavaScript, uma iniciativa para resolver problemas comuns do dia a dia utilizando *JavaScript*. Este repositório visa criar soluções eficientes e elegantes, incentivando a contribuição de código limpo e bem comentado.
 
 ## Tecnologia⚡
 * JavaScript
 * HTML
 * CSS
 
-## Como Contribuir📂
-* Escolha um Projeto: Verifique o Projeto e escolha aquele que mais pode ser ajustado e sinta-se a vontade para resolver.
-* Resolução do Problema: Implemente uma solução eficiente e limpa para o problema escolhido. Certifique-se de adicionar comentários explicativos para orientar outros colaboradores
+## Contribuição📂
+ Se você deseja contribuir para a melhoria deste projeto, sinta-se à vontade Aceitamos sugestões, correções de bugs e melhoria no design.
 
 ### Diretrizes de Contribuição📌
 * Mantenha o código limpo, seguindo as melhoress práticas do JavaScript.
