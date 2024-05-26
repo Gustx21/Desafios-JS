@@ -1,6 +1,12 @@
-// função para calcular as média
-function calcular() {
+// Escopo global 
+const res = document.getElementById("res");
 
+// Adicionando evento no clique do botão
+const input = document.querySelector(".btn");
+input.addEventListener("click", calculaNota);
+
+// função para calcular as média
+function calculaNota() {
     // variável declarada para armazenar valores numéricos
     let val1 = document.getElementById('valor1');
     let val2 = document.getElementById('valor2');
@@ -23,6 +29,10 @@ function calcular() {
         res.innerHTML = "Valor inválido.";
         return;
     };
+    
+    exibirNota(resposta.toFixed(1)); // o 'toFixed()' é para quantidade de casas decimais
+}
 
-    res.innerHTML = `${resposta.toFixed(1)}`; // o 'toFixed()' é para quantidade de casas decimais
+function exibirNota(resposta) {
+    res.innerHTML = resposta;
 }
